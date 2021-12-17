@@ -78,13 +78,13 @@ a{
     text-decoration: none;
     color: currentColor;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 22px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
 }
 
-a:hover{
+li:hover a{
     color: crimson;
 }
