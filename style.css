@@ -1,3 +1,7 @@
+html{
+    font-family: 'Prompt', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -18,11 +22,21 @@ img{
     background-color: coral;
 }
 
+#seconda-scarpa{
+    background-color: cornflowerblue;
+}
+
+#terza-scarpa{
+    background-color:lightgreen;
+}
+
 .container .img-wrapper{
     width: calc(50vw + 10px);
     color:navy;
-    font-size: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
     text-align: center;
+    /* centratura rispetto alla viewport */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,3 +44,6 @@ img{
 
 }
 
+.img-wrapper:hover img{
+    transform: scale(1.2 , 1.2);
+}
